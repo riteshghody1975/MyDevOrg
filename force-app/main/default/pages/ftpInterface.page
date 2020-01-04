@@ -1,0 +1,7 @@
+<apex:page showheader="true" sidebar="true"> 
+
+   
+
+    <div id="__ui">{!GETSESSIONID()}</div>
+
+</apex:page>

@@ -1,0 +1,45 @@
+<apex:page >
+<apex:form >
+  <apex:pageBlock Title="First Block">
+      
+      <apex:pageBlockSection Title="First Section">
+          
+          <apex:pageBlockSectionItem >
+              Salesforce Admin
+          </apex:pageBlockSectionItem>
+          
+          <apex:pageBlockSectionItem >
+              User 1
+          </apex:pageBlockSectionItem>
+          
+          <apex:pageBlockSectionItem >
+              User 2
+          </apex:pageBlockSectionItem>
+                    
+      </apex:pageBlockSection>
+      
+      <apex:pageBlockSection Title="Second Section">
+          
+          <apex:pageBlockSectionItem >
+              Item 1
+          </apex:pageBlockSectionItem>
+          
+          <apex:pageBlockSectionItem >
+              Item 2
+          </apex:pageBlockSectionItem>
+          
+          <apex:pageBlockSectionItem >
+              Item 3
+          </apex:pageBlockSectionItem>
+          
+      </apex:pageBlockSection>
+      <apex:pageBlockButtons >
+          <apex:commandButton value="save"/>
+      </apex:pageBlockButtons>
+      
+      
+  </apex:pageBlock>
+  </apex:form>
+  
+  
+</apex:page>
